@@ -8,6 +8,7 @@ import Ministore from "./Components/pages/Ministore";
 import { ToastContainer } from "react-toastify";
 import Navbar from "./Components/pages/Navbar";
 import Profile from "./Components/pages/Profile";
+import Forum from "./Components/pages/Forum";
 
 function App() {
   return (
@@ -22,6 +23,7 @@ function App() {
         <Route path="/profile" element={<Profile />} />
 
         <Route path="/store" element={<Ministore />} />
+        <Route path="/forum" element={<Forum />} />
       </Routes>{" "}
       <ToastContainer />
     </BrowserRouter>

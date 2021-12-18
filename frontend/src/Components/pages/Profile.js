@@ -6,9 +6,9 @@ const Profile = () => {
       {/* <div>
         <h1 className="p-12 font-medium text-2xl ">Wants to Plant More</h1>
       </div> */}
-      <div className="flex md:flex-row bg-green-700 flex-col justify-around ">
+      <div className="flex md:flex-row bg-green-500 flex-col justify-around ">
         <div className="h-full w-1/2">
-          <h1 className="bg-green-100 text-center py-2 font-medium text-2xl my-8 ml-45">
+          <h1 className="bg-blue-100 text-center py-2 font-medium text-2xl my-8 ml-45">
             WELCOME!
           </h1>{" "}
           <img
@@ -17,16 +17,16 @@ const Profile = () => {
             alt="dfsd"
           />
           <div className="w-auto text-center">
-            <button class="py-2 m-8 px-4 bg-green-100 text-black font-semibold rounded-lg ">
+            <button class="py-2 m-8 px-4 bg-pink-100 text-black font-semibold rounded-lg ">
               Monalisa Fernandes
             </button>
-            <button class="py-2 m-8 px-4 bg-green-100 text-black font-semibold rounded-lg shadow-md hover:bg-white focus:outline-none focus:ring-2 focus:ring-white-400 focus:ring-opacity-75">
+            <button class="py-2 m-8 px-4 bg-pink-100 text-black font-semibold rounded-lg shadow-md hover:bg-white focus:outline-none focus:ring-2 focus:ring-white-400 focus:ring-opacity-75">
             Previous Work
           </button>
             
           </div>
         </div>
-        <div className="h-screen w-1/2 bg-yellow-50 p-20 text-center">
+        <div className="h-screen w-1/2 bg-yellow-100 p-20 text-center">
           <h2 className="text-4xl text-center pb-2 bg-brown ">
             UPLOAD HERE
           </h2>{" "}
@@ -35,7 +35,7 @@ const Profile = () => {
             <br />
             <input
               className={
-                "w-3/4 bg-green-100 p-2 text-primary  transition duration-150 ease-in-out mb-4"
+                "w-3/4 bg-blue-100 p-2 text-primary  transition duration-150 ease-in-out mb-4"
               }
             />
           </div>
@@ -45,7 +45,7 @@ const Profile = () => {
             
             <input className="ml-20" type="file"></input>
           </div>
-          <button onClick={() => window.location.reload(false)} class="py-2 m-8 px-4 bg-green-100 text-black font-semibold rounded-lg shadow-md hover:bg-white focus:outline-none focus:ring-2 focus:ring-white-400 focus:ring-opacity-75">
+          <button class="py-2 m-8 px-4 bg-pink-100 text-black font-semibold rounded-lg shadow-md hover:bg-white focus:outline-none focus:ring-2 focus:ring-white-400 focus:ring-opacity-75">
             Submit
           </button>
         </div>
