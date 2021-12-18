@@ -1,0 +1,56 @@
+@import url("https://fonts.googleapis.com/css2?family=DM+Serif+Text&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter&display=swap");
+.HeroSection {
+  height: 100vh;
+  margin: 0;
+  padding: 0;
+  display: block;
+}
+
+.curves {
+  position: absolute;
+  width: 100%;
+  max-height: 100vh;
+  margin-left: -2%;
+  margin-top: -2%;
+}
+
+.group {
+  position: absolute;
+  max-width: 550px;
+  height: 500px;
+  left: 125px;
+  top: 15px;
+}
+
+@media only screen and (max-width: 700px) {
+  .group {
+    display: none;
+  }
+}
+.HeroTitle {
+  padding: 50px 60px 60px 0;
+  font-family: DM Serif Text;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 125px;
+  color: #516b26;
+}
+
+.HeroDescription {
+  display: flex;
+  justify-content: end;
+  align-items: flex-end;
+  flex-direction: column;
+}
+
+.HeroDescription p {
+  width: 475px;
+  position: absolute;
+  font-family: Inter;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 20px;
+  padding-right: 60px;
+  text-align: justify;
+}
