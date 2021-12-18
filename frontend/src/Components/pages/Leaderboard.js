@@ -2,8 +2,8 @@ import React from "react";
 import logo from "../assets/testimonial_img-1.jpg";
 const Leaderboard = () => {
   return (
-    <div className="h-screen bg-pink-100">
-      <div className="text-2xl text-center pt-12 font-mono text-gray-400">
+    <div className="h-screen bg-green-400">
+      <div className="text-3xl text-center pt-12 font-mono text-brown-600 font-bold">
         LeaderBoard
       </div>
       <div className="flex  h-1/2">
@@ -16,39 +16,39 @@ const Leaderboard = () => {
                 src={logo}
                 alt="logo"
               />{" "}
-              John Doe
+              John Doe - 100
             </div>{" "}
             <div className="py-2 flex">
-              # 1{" "}
+              # 2{" "}
               <img
                 className="rounded-full  h-8 w-8 mx-2"
                 src={logo}
                 alt="logo"
               />{" "}
-              John Doe
+              Spider Man - 98
             </div>{" "}
             <div className="py-2 flex">
-              # 1{" "}
+              # 3{" "}
               <img
                 className="rounded-full  h-8 w-8 mx-2"
                 src={logo}
                 alt="logo"
               />{" "}
-              John Doe
+              Batman - 95
             </div>{" "}
             <div className="py-2 flex">
-              # 1{" "}
+              # 4{" "}
               <img
                 className="rounded-full  h-8 w-8 mx-2"
                 src={logo}
                 alt="logo"
               />{" "}
-              John Doe
+              Krish - 94
             </div>
           </div>
         </div>
-        <div className="w-1/2 z-10 ">
-          <div className="bg-gray-300 mt-6 w-1/2 ">
+        <div className="w-1/2 h-1/2 z-10 ">
+          <div className="bg-gray-300 mt-6 w-1/2 rounded-lg ">
             <div className="p-4">
               {" "}
               <img
