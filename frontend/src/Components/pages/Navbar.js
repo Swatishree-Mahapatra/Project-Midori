@@ -9,12 +9,13 @@ function Navbar() {
     if (userlogged) {
       return (
         <div className={` mr-0`}>
-          <Link
-            to="/forum"
-            className=" hover:bg-gray-700 hover:text-white px-8 py-2 rounded-md  font-medium"
-          >
-            Forum
-          </Link>
+            <Link
+              to="/forum"
+              className=" hover:bg-gray-700 hover:text-white px-8 py-2 rounded-md  font-medium"
+            >
+              Forum
+            </Link>
+        
           <Link
             to="/leader"
             className=" hover:bg-gray-700 hover:text-white px-8 py-2 rounded-md  font-medium"
@@ -45,31 +46,31 @@ function Navbar() {
           </button>
         </div>
       );
-    } else {
-      return (
-        <>
-          <Link
-            to="/login"
-            className=" hover:bg-gray-700  px-8 py-2 rounded-md  font-medium"
-          >
-            Login
-          </Link>
-          <button
-            onClick={(e) => {
-              e.preventDefault();
-              navigate("/signup");
-            }}
-            className=" bg-lime-900 hover:bg-gray-900 hover:text-white font-bold py-2 px-4 border  rounded`}
-            "
-          >
-            Signup
-          </button>
-
-        </>
-      );
-    }
+    } 
+     else {
+       return (
+         <>
+           <Link
+             to="/login"
+             className=" hover:bg-gray-700  px-8 py-2 rounded-md  font-medium"
+           >
+             Login
+           </Link>
+           <button
+             onClick={(e) => {
+               e.preventDefault();
+               navigate("/signup");
+             }}
+             className=" bg-lime-900 hover:bg-gray-900 hover:text-white font-bold py-2 px-4 border  rounded`}
+             "
+           >
+             Signup
+           </button>
+         </>
+       );
+     }
   };
-  useEffect(() => {}, [userlogged]);
+  useEffect(() => { }, [userlogged]);
 
   return (
     <header className=" text-black top-0 z-10">
@@ -87,7 +88,7 @@ function Navbar() {
 
         <div className={` mr-0`}>
           <NavOption />
-        
+
         </div>
       </div>
     </header>
